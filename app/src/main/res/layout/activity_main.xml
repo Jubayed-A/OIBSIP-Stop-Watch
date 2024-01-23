@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,18 +9,18 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:background="@drawable/bg"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Stop Watch"
+        android:text="@string/welcome_text"
         android:textColor="@color/white"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        tools:ignore="TextSizeCheck" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -37,16 +38,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="220dp"
                 android:layout_margin="10dp"
-                android:src="@drawable/clock" />
+                android:contentDescription="@string/welcome_image"
+                android:src="@drawable/clock"
+                tools:ignore="ImageContrastCheck" />
 
             <TextView
                 android:id="@+id/timeTV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="00:00:00"
+                android:text="@string/time"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/text_black"
                 android:textSize="60sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -59,9 +62,11 @@
                     android:id="@+id/startButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="start"
+                    android:text="@string/start_btn"
                     app:backgroundTint="#3FABE4"
+                    android:textColor="@color/white"
                     app:icon="@drawable/ic_play"
+                    app:iconTint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/resetButton"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -72,9 +77,11 @@
                     android:id="@+id/resetButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="reset"
+                    android:text="@string/reset_btn"
+                    android:textColor="@color/white"
                     app:backgroundTint="#D3628D"
                     app:icon="@drawable/ic_reset"
+                    app:iconTint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/stopButton"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -85,9 +92,11 @@
                     android:id="@+id/stopButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Stop"
+                    android:text="@string/stop_btn"
+                    android:textColor="@color/white"
                     app:backgroundTint="#3DABE5"
                     app:icon="@drawable/baseline_stop_24"
+                    app:iconTint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -96,9 +105,7 @@
                     app:layout_constraintVertical_bias="1.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
-
 
 </LinearLayout>
