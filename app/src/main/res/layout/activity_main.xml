@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
 
     <TextView
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:text="Stop Watch"
-        android:textSize="34sp"
-        android:padding="10dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:background="@drawable/bg"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        />
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Stop Watch"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -38,9 +36,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="220dp"
-                android:src="@drawable/clock"
                 android:layout_margin="10dp"
-                />
+                android:src="@drawable/clock" />
 
             <TextView
                 android:id="@+id/timeTV"
@@ -55,16 +52,16 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/startButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="start"
-                    app:icon="@drawable/ic_play"
                     app:backgroundTint="#3FABE4"
+                    app:icon="@drawable/ic_play"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/resetButton"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -76,8 +73,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="reset"
-                    app:icon="@drawable/ic_reset"
                     app:backgroundTint="#D3628D"
+                    app:icon="@drawable/ic_reset"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/stopButton"
                     app:layout_constraintHorizontal_bias="0.5"
