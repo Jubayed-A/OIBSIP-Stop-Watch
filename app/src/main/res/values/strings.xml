@@ -6,4 +6,7 @@
     <string name="start_btn">start</string>
     <string name="reset_btn">reset</string>
     <string name="stop_btn">Stop</string>
+    <string name="this_is_a_splash_screen_image">this is a splash screen image</string>
+    <string name="count_you_time">Count You Time</string>
+    <string name="dev_name">By\nJubayed Alam</string>
 </resources>
