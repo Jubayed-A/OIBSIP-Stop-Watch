@@ -1,10 +1,10 @@
 
 <div align="center">  
-  <img src="https://github.com/Jubayed-A/OIBSIP-Calculation-App/assets/106887389/acd9f9ee-0d5f-47b4-9884-1eb7845768d0" alt="Weather" style="width: 200px; height: 200px; object-fit: contain; margin-right: 10px;">  
- <h1 style="display: inline-block; margin: 0; vertical-align: middle;">Calculator App</h1>  
+  <img src="https://github.com/Jubayed-A/OIBSIP-Stop-Watch/assets/106887389/9482f12b-21a3-4f90-b496-f2e1bebd2fa1" alt="Weather" style="width: 200px; height: 200px; object-fit: contain; margin-right: 10px;">  
+ <h1 style="display: inline-block; margin: 0; vertical-align: middle;">Stop Watch App</h1>  
 </div>  
 
-Welcome to Calculator App, This is a simple Android application for Calculation, built using the Simple And powerful Google Material Design. And this app is built for Oaisis Infobyte for Internship Project.
+Welcome to Stop Watch App, This is a simple Android application for Timer, built using the Simple And powerful Google Material Design. This app is built for Oaisis Infobyte for Internship Project.
 <!--
 **APK: https://github.com/Jubayed-A/Computer-Technology-App/releases/download/v.1.5/Computer.Department.apk** 
 
@@ -17,35 +17,29 @@ Welcome to Calculator App, This is a simple Android application for Calculation,
   <img src="https://github.com/Jubayed-A/Computer-Technology-App/assets/106887389/99394944-52e4-46cf-9e3b-0feb64552e95" style="flex:1; margin:5px;" height="450">
   <img src="https://github.com/Jubayed-A/Computer-Technology-App/assets/106887389/7fb86577-d005-4580-af7a-4c245b5f6df9" style="flex:1; margin:5px;" height="450">
 </div>
-
+-->
 
 ## Screenshots
 <div align="center"
   style="display:flex; flex-wrap:wrap;">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/540aad36-3e6e-4918-8a62-e8dbdda170ec" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/93659b69-2ba0-48a1-8298-7e86c45e4667" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/58497113-350f-4e8e-8d9c-2a6766ed45e4" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/799f6320-7a88-4207-bf4c-e13340729a9a" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/7f7e02c2-f753-453b-bb68-7cf9a8be9fc1" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/bafa78ee-3b0f-4ab9-948f-3b36f416850a" style="flex:1; margin:5px;" height="450">
-  <img src="https://github.com/Jubayed-A/Notes-Application-With-MVVM-and-Room-Database/assets/106887389/33f72d38-2ddb-4553-896b-24609cb2c9fa" style="flex:1; margin:5px;" height="450">
+  <img src="https://github.com/Jubayed-A/OIBSIP-Stop-Watch/assets/106887389/edcc2030-e33c-40ac-9383-80a1627f685f" style="flex:1; margin:5px;" height="450">
+  <img src="https://github.com/Jubayed-A/OIBSIP-Stop-Watch/assets/106887389/ca5d547e-bf43-41ad-93f4-2b719f84141f" style="flex:1; margin:5px;" height="450">
 </div>
--->
+
 
 ### Key Features
 
-- Material Design : The application follows the Google Material Desing for a create a better Ui Design.
+- Material Design: The application follows the Google Material Design to create a better Ui Design.
 
-- FireBase Database: Utilizes the Room persistence library for Stor Student Information.
-- Responsive Desing With Third Party Library.
+- Responsive Design with Third Party Library.
 - Responsive UI: Designed with responsive UI elements, including a StaggeredGridLayoutManager for a visually appealing layout.
-- Light/dark mode customized based on your phone them.
+- Light/dark mode customized based on your phone.
   
 ### Technologies Used
 
 We've embraced modern technologies to make this app robust and efficient:
 
-- Card View
+- Materical Card View
 - Google Material Design
 - View Binding.
 
@@ -53,7 +47,7 @@ We've embraced modern technologies to make this app robust and efficient:
 1. Clone the Repository:
 
 ### Clone the Repository:
-git clone: https://github.com/Jubayed-A/OIBSIP-Calculation-App.git
+git clone: https://github.com/Jubayed-A/OIBSIP-Stop-Watch.git
 
 2. Open in Android Studio:
 - Open Android Studio and choose "Open an existing Android Studio project."
